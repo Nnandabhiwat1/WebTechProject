@@ -36,6 +36,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin-left: 27em;
     margin-right: 27em;
+    background-color:black;
 }
 div#first{
     text-indent: 2%;
