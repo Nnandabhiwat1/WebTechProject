@@ -1,0 +1,75 @@
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+}
+  
+li {
+    float: center;
+}
+
+li a,
+    .dropbutton {
+    display: flex;
+    color: darkgrey;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover,
+.dropdown:hover .dropbutton {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.family {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50em;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    align-items: center;
+}
+
+* {
+    align-content: center;
+}
+
+.column {
+    display: inline-flex;
+    width: 15%;
+    box-sizing: border-box;
+    align-content: center;
+}
+.row {
+    align-items: center;
+    text-align: center;
+}
+
+/* Style the images inside the grid */
+.column img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
