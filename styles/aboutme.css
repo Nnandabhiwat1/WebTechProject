@@ -56,7 +56,7 @@ p {
     text-indent: 30px;
 }
 
-img{
+img.colorado{
     float: left;
     margin: 20px 20px 20px 20px;
     height: 400px;
@@ -71,7 +71,9 @@ body {
 }
 
 .scuba {
-    height: 400px
+    float: left;
+    margin: 20px 20px 20px 20px;
+    height: 400px;
 }
 
 .contact {
@@ -100,6 +102,20 @@ body {
     height: 100%;
     cursor: pointer;
     vertical-align: middle;
-    padding: 10px 100px;
     text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
