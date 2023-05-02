@@ -1,39 +1,8 @@
-nav {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-  
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    overflow: hidden;
-}
-  
-li {
-    float: center;
-}
-  
-li a,
-.dropbutton {
-    display: flex;
-    color: gray;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-}
-
-li a:hover,
-.dropdown:hover .dropbutton {
-    background-color: black;
-}
 
 h1 {
     text-align: center;
     font-size: 40px;
+    padding-top:24px;
 }
 
 h3 {
