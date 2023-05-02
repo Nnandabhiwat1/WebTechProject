@@ -6,105 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
+    <link rel="stylesheet" href="styles/aboutme.css" />
 
-<style>
-nav {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-  
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    overflow: hidden;
-}
-  
-li {
-    float: center;
-}
-  
-li a,
-    .dropbutton {
-    display: flex;
-    color: gray;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-}
-li a:hover,
-.dropdown:hover .dropbutton {
-background-color: black;
-}
-
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    text-align: center;
-}
-
-h3 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    margin-block-start: 3%;
-}
-
-h2 {
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
-    color: white;
-    text-align: left;
-}
-
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    font-size: 1.2em;
-    text-indent: 30px;
-}
-
-img {
-    float: left;
-    margin: 20px 20px 20px 20px;
-    height: 300px;
-}
-
-body {
-    background-color: black;
-    margin-left: 120px;
-    margin-right: 120px;
-    font-family: Arial;
-    align-items: center;
-}
-
-.scuba {
-    height: 200px
-}
-
-.contact {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-indent: none;
-    text-decoration: none;
-    perspective: 1px;
-}
-#white{
-    color:white;
-}
-
-</style>
 </head>
 
 <body>
     <nav>
         <ul>
+            <li><a href="index.html">Home</a></li>
             <li><a href="aboutme.html">About Me</a></li>
             <li><a href="family.html">Family</a></li>
             <li><a href="whyfilm.html">Why Film</a></li>
-            <li><a href="letter.html">Letter To My Future Self</a></li>
+            <li><a href="lettertomyfutureself.html">Letter To My Future Self</a></li>
             <li><a href="professional.html">Professional</a></li>
             </li>
         </ul>
@@ -112,7 +25,7 @@ body {
     <div>
         <h2 id="About me">About Me</h2>
         <p>
-            <img src="images/MaroonBells.JPG" alt="MaroonBells" title="Bambi at MaroonBells">
+            <img src="images/MaroonBells.JPG" alt="MaroonBells" title="Bambi at MaroonBells" class="maroonbells">
             My name is Bambi Nandabhiwat and I am from Bangkok, Thailand. I previously
             went to boarding school in Massachusetts since the age of 12. I first went to Fay School in Southborough, MA
             then continued my highschool career at Northfield Mount Hermon School in Gill, MA. This aspect
@@ -144,23 +57,44 @@ body {
         catching up with my friends and family members.
     </p>
     <p>
-        I've also developed interest in scuba-diving with <a style="text-decoration:none" ;
-            href="https://www.padi.com/" id="white"><b> Padi</b></a> and exploring life
-        underwater. My passion and interest in scuba-diving stemmed from my brother who is a rescue diver and now
-        working towards his dive-masters qualification. Hopefully one day I can develop my skills to his levels! In
-        addition to these I also relish traveling and hiking. A highlight from last semester would be going to Aspen and
-        Vail, Colorado for a hiking trip with my AKPsi friends in the fall. A dream destination of mine are the
-        Patagonia and Machu Picchu. Hopefully I will be able to check this bucket list off by the time I graduate
-        Babson.
-    </p> <br>
+        Coming to boarding school at a young age also encouraged my self-resilience to step out of my comfort zone and
+        participate in various team sports. Soccer played a huge role in my life growing up as well as basketball,
+        swimming, tennis, softball, and track and field. The rush of ecstasy fills me walking out of every workout,
+        practice, and game. I've made mistakes, learned from them, and picked myself up. The invaluable lessons I'm able
+        to gain on and off the fields have shaped me to be resilient and persistent in my everyday life.
+    </p>
+    <p>
+        I've also developed interest in scuba-diving with <a style="text-decoration:none" ; href="https://www.padi.com/"
+            id="white"><b> Padi</b></a> and exploring life underwater. My passion and interest in scuba-diving stemmed
+        from my brother who is a rescue diver and now working towards his dive-masters qualification. Hopefully one day
+        I can develop my skills to his levels! In addition to these I also relish traveling and hiking. A highlight from
+        last semester would be going to Aspen and Vail, Colorado for a hiking trip with my AKPsi friends in the fall. A
+        dream destination of mine are the Patagonias and Machu Picchu, Peru. Other places I would like to explore would
+        be the Galapagos as well especially after developing interest in scuba diving. For me traveling allows me to
+        open my hearts and mind to new cultures and traditions. Moreover, solidify my appreciate for the arts through
+        architecture. Growing up I've always wanted to be an architect. I've always had a rush of curiousness and find
+        myself losing time when coming across houses. Hopefully I will be able to check this bucket list off by the time
+        I graduate Babson.
+    </p>
+    <div class="row">
+        <div class="column">
+            <img src="images/nmhsoccer.jpg" alt="soccer">
+        </div>
+        <div class="column">
+            <img src="images/colorado1.jpg" alt="colorado">
+        </div>
+        <div class="column">
+            <img src="images/nmhbasketball.jpg" alt="basketball">
+        </div>
     <hr>
     <h3 id="Contact"> Contact Information</h3>
     <p> <br>
         Bambi Nandabhiwat <br>
         Web Technologies <br>
-        <a style="text-decoration: none" ; href="https://github.com/nnandabhiwat1/" target="_blank"> GitHub </a>Profile
+        <a style="text-decoration: none" ; href="https://github.com/nnandabhiwat1/" target="_blank" id="white"> GitHub
+        </a>Profile
         Page <br>
-        My Email is <a style="text-decoration: none" ; href="mailto:nnandabhiwat@babson.edu">
+        My Email is <a style="text-decoration: none" ; href="mailto:nnandabhiwat@babson.edu" id="white">
             nnandabhiwat1@babson.edu</a>
         feel free to reach out! <br>
         <iframe id="inlineFrameExample" title="Babson Address" width="300" height="200"
@@ -168,4 +102,5 @@ body {
             <!--This is an embedded map of Babson using the HTML property known as iframe. I acquired this knowledge from MDN Web Docs.-->
         </iframe>
     </p>
+
 </html>
