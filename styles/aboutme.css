@@ -1,4 +1,4 @@
-nav {
+nnav {
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -16,11 +16,11 @@ ul {
 li {
     float: center;
 }
-  
+
 li a,
     .dropbutton {
     display: flex;
-    color: gray;
+    color: darkgrey;
     text-align: center;
     padding: 15px;
     text-decoration: none;
